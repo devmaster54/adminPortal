@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans|IBM+Plex+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+
+body {
+  background-color: white;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 200;
+  src: url("./assets/fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./assets/fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/Roboto-Bold.ttf");
+}
+
+.ui.visible.push.sidebar,
+.ui.vertical.menu {
+  background: #313445;
+}
+.ui.vertical.menu .item:before {
+  height: 0px;
+  display: none;
+}
+.ui.left.sidebar {
+  width: 350px;
+}
+.ui.visible.left.sidebar ~ .pusher {
+  transform: translate3d(350px, 0, 0);
+}
+
+.ui.inverted.dimmer {
+  background-color: transparent;
+}
